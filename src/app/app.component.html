@@ -1,0 +1,72 @@
+<div class="container">
+
+
+    <h1 class="text-center text-ling mt-3"><i class="fa fa-calculator" aria-hidden="true"></i>proyecto calculadora</h1>
+    <div class="row mt-3 bg-dark full">
+        
+        <!--calculadora-->
+        <div class="col-sm-6 mt-2">
+
+          <div>
+
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+
+            </div>
+            <input type="textfield" name="visualiza" id="visualiza" [(ngModel)]="visualiza" >
+            <input type="hidden" class="from-control" name="memoria" id="memoria" [(ngModel)]="memoria" aria-label="Text input">
+          </div>
+          
+        </div>
+
+            <b>
+                <h1>
+                  <input type="button" value="1" class="gris" (click)="uno('')">
+                  <input type="button" value="2" class="gris" (click)="dos('')">
+                  <input type="button" value="3" class="gris" (click)="tres('')">
+                  <input type="button" value="x" (click)="multiplica()">
+                </h1>
+
+                <h1>
+                  <input type="button" value="4" class="gris" (click)="cuatro('')">
+                  <input type="button" value="5" class="gris" (click)="cinco('')">
+                  <input type="button" value="6" class="gris" (click)="seis('')">
+                  <input type="button" value="-" (click)="resta()">
+                </h1>
+
+                <h1>
+                  <input type="button" value="7" class="gris" (click)="siete('')">
+                  <input type="button" value="8" class="gris" (click)="ocho('')">
+                  <input type="button" value="9" class="gris" (click)="nueve('')">
+                  <input type="button" value="+" (click)="suma()">
+                </h1>
+ 
+               <h1>
+                <input type="button" value="0" (click)="cero('')">
+                <input type="reset" value="c" (click)="borrar()">
+                <input type="button" value="/" (click)="divide()">
+                <input type="button" value="=" (click)="resultado()">
+               </h1>
+              </b>
+            </div>
+           
+          </div>  
+
+
+          
+
+
+
+
+
+
+
+    
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
